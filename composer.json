@@ -9,10 +9,24 @@
             "email": "barryvdh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "ridebooker/dompdf",
+                "version": "1.0",
+                "source": {
+                    "url": "https://github.com/Ridebooker/dompdf.git",
+                    "type": "git",
+                    "reference": "fix-page-break"
+                }
+            }
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x|5.6.x",
-        "ridebooker/dompdf": "^0.8"
+        "ridebooker/dompdf": "1.0"
     },
 
     "autoload": {
